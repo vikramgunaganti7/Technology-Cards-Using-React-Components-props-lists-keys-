@@ -1,0 +1,64 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+li {
+  list-style: none;
+}
+.image-card {
+  height: 50px;
+  width: 50px;
+}
+.img-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+.card-heading {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  color: #f4faff;
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    background-color: #ffffff;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 14px;
+    margin-bottom: 10px;
+  }
+  .div-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
